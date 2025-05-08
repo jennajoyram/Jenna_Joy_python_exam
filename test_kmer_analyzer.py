@@ -78,6 +78,8 @@ def test_get_following_counts_edge_no_follow():
     expected = {"AA": {"A": 1}} # Expected next character counts for k-mer "AA"
     assert result == expected # Validate that only valid k-mers with a following character are counted
 
+    
+
 def test_write_output(tmp_path):
     """
     Tests the write_output function, verifying that it writes the k-mer counts and 

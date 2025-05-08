@@ -57,6 +57,8 @@ This project focuses on analyzing DNA sequences by calculating the frequency of 
 
 -   `test_kmer_analyzer.py`: A test script that uses `pytest` to validate the functionality of the `kmer_analyzer.py` script.
 
+-   `kmer_analysis_documentation.docx` : This document explains the data structures used, the edge cases and how the defined functions avoid overcounting of kmers.
+
 ### Expected Output
 
 The `output_file` will be in a tab-delimited format, where:
