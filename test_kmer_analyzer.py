@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import pytest
 from kmer_analyzer import read_sequence, get_kmer_counts, get_following_counts, write_output
 
